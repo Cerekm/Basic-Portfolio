@@ -1,8 +1,7 @@
 body {
     margin: 0px ;
-    background: #dbd9d9;
+    background: #edebeb;
 }
-
 
 .header {
     height: 150px;
@@ -11,14 +10,14 @@ body {
     width: 100%;
     top: 0px;
 }
-
 .content {
     width: 960px;
     background: white;
-    margin-top: 8%;
+    margin-top: 14%;
     margin-left: 20%;
     border: 1px solid black;
     height: 600px;
+    position: relative;
     
 
 }
@@ -29,30 +28,64 @@ nav {
     position: fixed;
     background-color: white;
     top: 0;
+    
     }
-    nav ul{
+nav ul{
         margin: 0;
         padding: 0;
         list-style: none; 
         top: 0;
+        
        
     }
-    nav li {
+nav li {
         display: inline-block;
         margin: 1em; 
-        top: 0;
+        margin-top: 70px;
 
         
     }
-    nav a {
+nav a {
         font-weight: 900;
         text-decoration: none;
-        font-size: 1rem; 
+        font-size: 1.5rem; 
         padding: .5em;
-        top: 0;
+        margin-top: 35px;
+        
+        
     }
-    h1 {
-        margin-left: 60px;
-        margin-top: 13px;
-        font-family: 'Comfortaa', cursive;
+nav a:hover{
+    color: cyan;
+    font-size: 1.7rem
+
+}
+h1 {
+        margin-left: 280px;
+        margin-top: 35px;
+        font-family: 'Kanit', sans-serif;
+        font-size: 3rem;
+    }
+#bioTopRight {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.5rem;
+    float:right;
+    position: relative;
+    margin-left: 35%;
+    margin-top: -300px;
+    line-height: 50px;
+    }
+#bioBottomLeft {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.5rem;
+    float:right;
+    position: relative;
+    line-height: 50px;
+    margin-top: -14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    img {
+        float: left;
+        padding: 0;
+        margin: 0;
     }
