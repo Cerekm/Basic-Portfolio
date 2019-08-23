@@ -1,0 +1,58 @@
+body {
+    margin: 0px ;
+    background: #dbd9d9;
+}
+
+
+.header {
+    height: 150px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+.content {
+    width: 960px;
+    background: white;
+    margin-top: 8%;
+    margin-left: 20%;
+    border: 1px solid black;
+    height: 600px;
+    
+
+}
+nav {
+    right: 100px;
+    float: right;
+    margin-right: -50px;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    }
+    nav ul{
+        margin: 0;
+        padding: 0;
+        list-style: none; 
+        top: 0;
+       
+    }
+    nav li {
+        display: inline-block;
+        margin: 1em; 
+        top: 0;
+
+        
+    }
+    nav a {
+        font-weight: 900;
+        text-decoration: none;
+        font-size: 1rem; 
+        padding: .5em;
+        top: 0;
+    }
+    h1 {
+        margin-left: 60px;
+        margin-top: 13px;
+        font-family: 'Comfortaa', cursive;
+    }
