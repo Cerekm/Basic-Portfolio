@@ -10,12 +10,21 @@ body {
     width: 100%;
     top: 0px;
 }
+.aboutMe {
+    height:150px;
+    width: 300px;
+    background-color: #08b37ff1;
+    margin-left: 21rem;
+    margin-top: -50px;
+    z-index: 3;
+    
+
+}
 .content {
     width: 960px;
     background: white;
     margin-top: 14%;
     margin-left: 20%;
-    border: 1px solid black;
     height: 600px;
     position: relative;
     
@@ -55,15 +64,17 @@ nav a {
         
     }
 nav a:hover{
-    color: cyan;
+    color: #08b37ff1;
     font-size: 1.7rem
 
 }
 h1 {
-        margin-left: 280px;
-        margin-top: 35px;
-        font-family: 'Kanit', sans-serif;
+        margin-left: 0px;
+        margin-top: 50px;
+        font-family: 'Georgia', serif;
         font-size: 3rem;
+        color:white;
+        text-align: center;
     }
 #bioTopRight {
     font-family: 'Comfortaa', sans-serif;
@@ -83,9 +94,33 @@ h1 {
     margin-top: -14px;
     margin-left: 10px;
     margin-right: 10px;
+    
 }
     img {
         float: left;
         padding: 0;
         margin: 0;
     }
+   footer {
+       height:75px;
+       background-color: darkgray;
+       margin-bottom: 0px;
+       padding: 0px;
+       margin-top: 60px;
+       border: solid #08b37ff1;
+       
+   }
+   h2 {
+       margin-left: 2rem;
+       font-size: 2.5rem;
+       color: #08b37ff1;
+   }
+   h4 {
+    font-family: 'Arial', sans-serif;
+    color: darkgray;
+   }
+   h3 {
+    margin-left: 2rem;
+    font-size: 2.5rem;
+    color: darkgray;
+   }
